@@ -1,0 +1,66 @@
+//general
+$body-font-family: 'vazir';
+//v-card
+$card-border-radius: 15px;
+$card-elevation: 0;
+//v-tab
+$tabs-item-letter-spacing: 0px;
+//v-btn
+$btn-border-radius: 8px;
+$btn-font-weight: 500;
+$btn-letter-spacing: 0;
+$btn-sizes: (
+  'small': 32,
+  'large': 48,
+);
+$btn-font-sizes: (
+  'small': 14,
+);
+//inputs
+$text-field-border-radius: 8px;
+$text-field-outlined-fieldset-border: 1px solid currentColor;
+$input-font-size: 14px;
+$text-field-line-height: 20px;
+$text-field-padding: 14px 10px;
+$text-field-filled-full-width-outlined-slot-min-height: 50px;
+$text-field-enclosed-prepend-append-margin-top: 13px;
+$text-field-filled-full-width-outlined-single-line-slot-min-height: 45px;
+$text-field-dense-icon-append-prepend-margin-top: 10px;
+$text-field-outlined-prepend-append-margin-top: 11px;
+//typography
+$headings: (
+  'h1': (
+    'size': 28px,
+    'line-height': 38px,
+    'weight': 700,
+    'letter-spacing': 0
+  ),
+  'h5': (
+    'size': 20px,
+    'line-height': 27px,
+    'weight': 400,
+    'letter-spacing': 0
+  ),
+  'h6': (
+    'size': 18px,
+    'line-height': 25px,
+    'weight': 400,
+    'letter-spacing': 0
+  ),
+  'body-1': (
+    'size': 16px,
+    'line-height': 22px,
+    'weight': 400,
+    'letter-spacing': 0
+  ),
+  'body-2': (
+    'size': 14px,
+    'line-height': 19px,
+    'weight': 400,
+    'letter-spacing': 0
+  ),
+);
+//radius
+$rounded: (
+  'xl': 15px,
+);

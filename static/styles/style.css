@@ -1,0 +1,104 @@
+/*no-bg*/
+.no-bg:before{
+  background: none !important;
+}
+.no-bg:after{
+  background: none !important;
+}
+/*spaces*/
+.mt-half{
+  margin-top: 2px;
+}
+.mb-half{
+  margin-bottom: 2px;
+}
+.mr-half{
+  margin-right: 2px;
+}
+.ml-half{
+  margin-left: 2px;
+}
+/*width classes*/
+.w-max-content{
+  width: max-content;
+}
+.w-min-content{
+  width: min-content;
+}
+.w-fit-content{
+  width: fit-content;
+}
+/*typography*/
+.text-body-3{
+  font-size: 13px;
+  line-height: 18px;
+}
+.text-body-4{
+  font-size: 11px;
+  line-height: 15px;
+}
+.text-body-5{
+  font-size: 10px;
+  line-height: 14px;
+}
+/*inputs*/
+.special-txt-field{
+  background: rgba(182, 176, 181, 0.1);
+}
+.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot fieldset{
+  border: 1px solid rgba(149, 148, 148, 0.2);
+}
+/*shop-categories*/
+.shop-cat-chip{
+  background: rgba(182, 176, 181, 0.1) !important;
+  border: 1px solid rgba(149, 148, 148, 0.2);
+  border-radius: 7px !important;
+}
+.shop-cat-chip.secondary{
+  border: 1px solid rgba(149, 148, 148, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+/*scrollbar*/
+.v-application *::-webkit-scrollbar-corner {
+  background: none;
+}
+.v-application *::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.v-application *::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 15px;
+  margin: 0;
+}
+.v-application *::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.v-application *::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.v-application .theme--dark *::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border: solid 2px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+.v-application .theme--dark *::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 960px) {
+  .text-body-md-3{
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .text-body-md-4{
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .text-body-md-5{
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
